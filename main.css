@@ -1,8 +1,13 @@
-body {
-    background-color: black;
-}
+/* Imports */
 
-p {
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap'); /* Libre Baskerville Bold 700 (font-family: 'Libre Baskerville', serif;)*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap'); /* Poppins Semi-bold 600 (font-family: 'Poppins', sans-serif;)*/
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap'); /* Bitter Regular 400 (font-family: 'Bitter', serif;)*/
+
+/* Site-wide */
+* {
+    background-color: black;
+    font-family: 'Bitter', serif;
     color: white;
-    text-align: center;
 }
