@@ -29,6 +29,17 @@
     font-family: 'Bitter', serif;
 }
 
+/* General animations */
+.hover_animation1 {
+    transition: hover 0.3s ease 0s;
+    -webkit-transition: hover 0.3s ease 0s;
+    -moz-transition: hover 0.3s ease 0s;
+    -ms-transition: hover 0.3s ease 0s;
+    -o-transition: hover 0.3s ease 0s;
+} .hover_animation1:hover {
+    color: #a7a7a7
+}
+
 /* Navigation */
 .nav_title {
     font-size: 20px;
@@ -53,17 +64,7 @@ header {
     padding: 0px 20px;
 }
 
-.nav_links li a, .nav_title {
-    transition: hover 0.3s ease 0s;
-    -webkit-transition: hover 0.3s ease 0s;
-    -moz-transition: hover 0.3s ease 0s;
-    -ms-transition: hover 0.3s ease 0s;
-    -o-transition: hover 0.3s ease 0s;
-}
 
-.nav_links li a:hover, .nav_title:hover {
-    color: #a7a7a7
-}
 
 /* Temporary content */
 img {
@@ -80,6 +81,7 @@ img {
 
 .footer_email {
     font-weight: normal;
+    font-size: 13px;
 }
 
 .footer_accounts i {
