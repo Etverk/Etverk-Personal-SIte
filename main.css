@@ -30,7 +30,7 @@
 }
 
 /* General animations */
-.hover_animation1 {
+.hover_animation_text {
     transition: hover 0.3s ease 0s;
     -webkit-transition: hover 0.3s ease 0s;
     -moz-transition: hover 0.3s ease 0s;
@@ -39,6 +39,7 @@
 } .hover_animation1:hover {
     color: #a7a7a7
 }
+
 
 /* Navigation */
 .nav_title {
@@ -66,10 +67,61 @@ header {
 
 
 
-/* Temporary content */
-img {
+/* Homepage intro */
+.homepage_intro_section {
+    position: relative;
     width: 100%;
+    height: 1080px;
+    margin: 0 auto;
+    background-image: url(imgs/RomeStatue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.homepage_intro_container {
+    font-size: 2rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    padding: 15px 20px 20px 20px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.homepage_intro_header {
+    display: inline;
+    text-align: center;
+}
+
+.homepage_intro_button {
+    display:block;
+    margin: 20px auto 0px auto;
+    padding: 1.1em 3em;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: hover;
+    -webkit-transition: hover;
+    -moz-transition: hover;
+    -ms-transition: hover;
+    -o-transition: hover;
+}
+
+.homepage_intro_button:hover {
+    background-color: black;
+    color: white;
+}
+  
+
 
 /* Footer */
 .footer_main {
