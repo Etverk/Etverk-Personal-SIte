@@ -32,6 +32,7 @@
 /* Navigation */
 .nav_title {
     font-size: 20px;
+    display: flex;
 }
 
 li, a {
@@ -62,4 +63,35 @@ header {
 
 .nav_links li a:hover, .nav_title:hover {
     color: #a7a7a7
+}
+
+/* Temporary content */
+img {
+    width: 100%;
+}
+
+/* Footer */
+.footer_main {
+    display: block;
+    justify-content: space-between;
+    padding: 1.5rem 1rem 1rem 1rem;
+    text-align: center;
+}
+
+.footer_email {
+    font-weight: normal;
+}
+
+.footer_accounts i {
+    margin: 1.5rem 0.6rem 0.7rem 0.6rem;
+}
+
+footer hr {
+    opacity: 0.8;
+}
+
+.copyright {
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 12px;
 }
