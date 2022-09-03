@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/b32aa9e70f.js" crossorigin="anonymous"></script>
 
     <title>Etverk</title>
@@ -16,14 +16,22 @@
     <header>
         <h4 class="page_header"><a class="nav_title hover_animation1" href="index.html">ETVERK</a></h4>
 
-        <nav>
-            <ul class="nav_links">
-                <li><a class="page_title hover_animation1" href="#">PROJECTS</a></li>
-                <li><a class="page_title hover_animation1" href="#">ARTICLES</a></li>
-                <li><a class="page_title hover_animation1" href="#">ABOUT</a></li>
+        <nav class="navbar">
+            <ul class="nav_menu">
+                <li class="nav_item"><a class="page_title hover_animation1" href="#">PROJECTS</a></li>
+                <li class="nav_item"><a class="page_title hover_animation1" href="#">ARTICLES</a></li>
+                <li class="nav_item"><a class="page_title hover_animation1" href="#">ABOUT</a></li>
             </ul>
         </nav>
+
+        <div class="nav_hamburger">
+            <span class="nav_hamburger_bar"></span>
+            <span class="nav_hamburger_bar"></span>
+            <span class="nav_hamburger_bar"></span>
+        </div>
+
     </header>
+
 
 <section class="homepage_intro_section">
     <div class="homepage_intro_container">
@@ -31,6 +39,8 @@
         <button class="homepage_intro_button page_title hover_animation_button">ABOUT</button>
     </div>
 </section>
+
+
 
     <footer>
         <div class="footer_main">
@@ -44,7 +54,7 @@
         <p class="copyright">Etverk &copy; 2022</p>
     </footer>
 
-    <script src="main.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
