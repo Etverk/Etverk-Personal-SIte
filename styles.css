@@ -167,9 +167,21 @@ header {
     text-align: center;
 }
 
+.homepage_intro_title {
+    font-size: 14px;
+    word-spacing: 5px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .homepage_intro_title {
+        display: none;
+    }
+}
+
 .homepage_intro_button {
     display:block;
-    margin: 20px auto 0px auto;
+    margin: 25px auto 0px auto;
     padding: 1.1em 3em;
     font-size: 12px;
     letter-spacing: 2.5px;
