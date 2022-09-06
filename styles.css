@@ -16,6 +16,13 @@
     
 }
 
+body {
+    background-image: url(imgs/RomeStatue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 /* Main text-types */
 .page_header, h1, h2 {
     font-family: 'Libre Baskerville', serif;
@@ -137,29 +144,25 @@ header {
     }
 }
 
-/* Homepage intro */
+
+/* Homepage intro section */
 .homepage_intro_section {
-    position: relative;
-    width: 100%;
-    height: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
-    background-image: url(imgs/RomeStatue.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: fit-content;
+    margin-top: 300px;
+    margin-bottom: 300px;
 }
 
 .homepage_intro_container {
     font-size: 2rem;
-    position: absolute;
-    top: 40%;
-    left: 50%;
+    margin: 0 auto;
+    
     text-align: center;
     padding: 15px 20px 20px 20px;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
+    
 }
 
 .homepage_intro_header {
